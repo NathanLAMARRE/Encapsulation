@@ -1,0 +1,11 @@
+﻿  Entity.cpp
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Entity.cpp(5,7): error C2011: 'Entity' : redéfinition du type 'class'
+      C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Entity.h(4,7):
+      voir la déclaration de 'Entity'
+  
+  Player.cpp
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Player.h(6,21): error C2011: 'Entity' : redéfinition du type 'class'
+  (compiler le fichier source 'Player.cpp')
+      C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Entity.h(4,7):
+      voir la déclaration de 'Entity'
+  
