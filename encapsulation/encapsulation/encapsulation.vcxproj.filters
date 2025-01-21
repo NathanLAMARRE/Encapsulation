@@ -24,7 +24,7 @@
     <ClCompile Include="Player.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="Déplacement.cpp">
+    <ClCompile Include="Ennemy.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,7 +38,7 @@
     <ClInclude Include="Player.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
-    <ClInclude Include="Déplacement.h">
+    <ClInclude Include="Ennemy.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
   </ItemGroup>

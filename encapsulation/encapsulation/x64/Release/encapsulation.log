@@ -1,11 +1,8 @@
-﻿  Entity.cpp
-C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Entity.cpp(5,7): error C2011: 'Entity' : redéfinition du type 'class'
-      C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Entity.h(4,7):
-      voir la déclaration de 'Entity'
-  
-  Player.cpp
-C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Player.h(6,21): error C2011: 'Entity' : redéfinition du type 'class'
-  (compiler le fichier source 'Player.cpp')
-      C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Entity.h(4,7):
-      voir la déclaration de 'Entity'
-  
+﻿  Ennemy.cpp
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Ennemy.cpp(10,25): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Ennemy.cpp(10,18): warning C4305: 'argument' : troncation de 'double' à 'float'
+  main.cpp
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\main.cpp(12,44): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\main.cpp(13,58): warning C4305: 'argument' : troncation de 'double' à 'float'
+Ennemy.obj : error LNK2001: symbole externe non résolu "public: virtual void __cdecl Ennemy::update(float)" (?update@Ennemy@@UEAAXM@Z)
+C:\Users\nlamarre\source\repos\encapsulation\x64\Release\encapsulation.exe : fatal error LNK1120: 1 externes non résolus

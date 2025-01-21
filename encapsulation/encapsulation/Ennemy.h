@@ -3,9 +3,10 @@
 #include <SFML/Graphics.hpp>
 #include "Entity.h"
 
-class Player: public Entity {
+
+class Ennemy : public Entity {
 public:
-	Player(int x, int y, std::string texturePath, float vit, int _vie);
+	Ennemy(int x, int y, std::string texturePath, float vit, int _vie);
 
 	void handlInput();
 	void update(float deltaTime);
