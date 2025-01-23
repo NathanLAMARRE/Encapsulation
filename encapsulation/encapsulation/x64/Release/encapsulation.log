@@ -1,8 +1,12 @@
-﻿  Ennemy.cpp
-C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Ennemy.cpp(10,25): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\nlamarre\source\repos\encapsulation\encapsulation\Ennemy.cpp(10,18): warning C4305: 'argument' : troncation de 'double' à 'float'
-  main.cpp
-C:\Users\nlamarre\source\repos\encapsulation\encapsulation\main.cpp(12,44): warning C4305: 'argument' : troncation de 'double' à 'float'
-C:\Users\nlamarre\source\repos\encapsulation\encapsulation\main.cpp(13,58): warning C4305: 'argument' : troncation de 'double' à 'float'
-Ennemy.obj : error LNK2001: symbole externe non résolu "public: virtual void __cdecl Ennemy::update(float)" (?update@Ennemy@@UEAAXM@Z)
-C:\Users\nlamarre\source\repos\encapsulation\x64\Release\encapsulation.exe : fatal error LNK1120: 1 externes non résolus
+﻿  ChaserEnemy.cpp
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\ChaserEnemy.cpp(11,24): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\ChaserEnemy.cpp(11,18): warning C4305: 'argument' : troncation de 'double' à 'float'
+  PatrollingEnemy.cpp
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\PatrollingEnemy.cpp(11,24): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\nlamarre\source\repos\encapsulation\encapsulation\PatrollingEnemy.cpp(11,18): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Génération de code en cours
+  3 of 86 functions ( 3.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  encapsulation.vcxproj -> C:\Users\nlamarre\source\repos\encapsulation\x64\Release\encapsulation.exe
