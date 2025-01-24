@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "ChaserEnemy.h"
 #include "PatrollingEnemy.h"
+#include "Door.h"
 
 
 const int WINDOW_WIDTH = 1920;
@@ -14,6 +15,7 @@ int main() {
 	Player p(50, 50, "asset//banane pix.png", 0.05, 3);
     Chaser c(50, 50, "asset//pêche.jpg", 0.05, 3);
     Patrolling pa(50, 50, "asset//Pastèque.jpg", 0.05, 3);
+    Door Door(100.f, sf::Color::Red, 350.f, 250.f);
 
     while (window.isOpen()) {
         sf::Event event;
@@ -22,15 +24,15 @@ int main() {
                 window.close(); 
         }
         p.handlInput();
-        c.handlInput();
-        pa.handlInput();
+        p.update();
+        c.update(p);
         window.clear();
+
         window.draw(p.sprite);
         window.draw(c.sprite);
         window.draw(pa.sprite);
+        Door.draw(window);
         window.display();
     }
-
-
 
 };

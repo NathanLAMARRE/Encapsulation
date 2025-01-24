@@ -8,6 +8,6 @@ public:
 	Chaser(int x, int y, std::string texturePath, float vit, int _vie);
 
 	void handlInput() {}
-	void update(float deltaTime) override {}
+	void update(const Player& player) override {}
 	void draw(sf::RenderWindow& window) override {}
 };

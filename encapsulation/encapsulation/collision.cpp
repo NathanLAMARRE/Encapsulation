@@ -3,5 +3,5 @@
 #include "Player.h"
 
 void collision() {
-	Player::sprite.getPosition;
+	//Player.getPosition;
 }
